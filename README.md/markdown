@@ -1,0 +1,42 @@
+# PORTFOLIOFD
+
+Portfolio personal de Florencia D'Addino.
+
+## Sobre el proyecto
+
+Este portfolio documenta mi evolución académica y técnica en:
+
+- Desarrollo de software
+- Sistemas de Información en Salud
+- Ciberseguridad
+
+El proyecto irá evolucionando a medida que avance en mi formación.
+
+## Estado
+
+🚧 En desarrollo — v0.1
+
+## Stack actual
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+
+## Proyectos
+
+### Sistema de Gestión de Turnos
+
+Proyecto académico orientado a la gestión de turnos médicos.
+
+Actualmente en desarrollo.
+
+## Roadmap
+
+- [x] Crear estructura inicial
+- [ ] Diseñar interfaz
+- [ ] Implementar responsive design
+- [ ] Agregar sección de proyectos
+- [ ] Publicar primera versión
+- [ ] Mejorar accesibilidad
+- [ ] Incorporar nuevos proyectos
