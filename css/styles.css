@@ -259,3 +259,91 @@ body {
 .currently-building strong {
     font-size: 0.85rem;
 }
+/* =========================
+   About
+   ========================= */
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 32px;
+    border-top: 1px solid var(--border);
+}
+
+
+.section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin-bottom: 70px;
+}
+
+
+.section-header span {
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+
+.section-header h2 {
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+
+.about-grid {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 100px;
+}
+
+
+.about-title h3 {
+    font-size: clamp(2.3rem, 4vw, 4rem);
+
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+}
+
+
+.about-content {
+    max-width: 520px;
+}
+
+
+.about-content p {
+    color: var(--text-secondary);
+
+    font-size: 1rem;
+    line-height: 1.8;
+
+    margin-bottom: 24px;
+}
+
+
+.about-areas {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+    margin-top: 36px;
+}
+
+
+.about-areas span {
+    padding: 8px 12px;
+
+    border: 1px solid var(--border);
+    border-radius: 4px;
+
+    color: var(--text-secondary);
+
+    font-size: 0.75rem;
+}
