@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta
         name="description"
-        content="Portfolio de Florencia D'Addino — desarrollo de software, sistemas de información en salud y ciberseguridad."
+        content="Portfolio de Florencia D'Addino. Medicina, desarrollo de software, sistemas de información en salud y ciberseguridad."
     >
 
     <title>Florencia D'Addino | Portfolio</title>
@@ -16,72 +17,76 @@
 
 <body>
 
-    <header>
-        <nav>
-            <a href="#inicio">FD.</a>
+    <header class="header">
+        <nav class="navbar">
 
-            <ul>
+            <a href="#inicio" class="logo">
+                FD<span>.</span>
+            </a>
+
+            <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre mí</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#formacion">Formación</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+
         </nav>
     </header>
 
+
     <main>
 
-        <section id="inicio">
-            <p>Hola, soy</p>
+        <section id="inicio" class="hero">
 
-            <h1>Florencia D'Addino</h1>
+            <div class="hero-content">
 
-            <h2>
-                Desarrollo de software · Health IT · Cybersecurity
-            </h2>
-
-            <p>
-                Construyendo soluciones tecnológicas con especial interés
-                en sistemas de información en salud y seguridad.
-            </p>
-
-            <a href="#proyectos">Ver proyectos</a>
-        </section>
-
-        <section id="sobre-mi">
-            <h2>Sobre mí</h2>
-
-            <p>
-                Soy médica y residente interdisciplinaria en Sistemas de
-                Información en Salud, actualmente ampliando mi formación
-                en informática y desarrollo de software.
-            </p>
-        </section>
-
-        <section id="proyectos">
-            <h2>Proyectos</h2>
-
-            <article>
-                <h3>Sistema de Gestión de Turnos</h3>
-
-                <p>
-                    Proyecto orientado a la gestión de turnos médicos,
-                    desarrollado progresivamente durante mi formación.
+                <p class="hero-label">
+                    MEDICINE × SOFTWARE × CYBERSECURITY
                 </p>
-            </article>
-        </section>
 
-        <section id="formacion">
-            <h2>Formación</h2>
+                <h1>
+                    Florencia<br>
+                    D'Addino<span>.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Médica y Técnica en Ciberseguridad, construyendo
+                    soluciones en la intersección entre tecnología,
+                    salud y seguridad.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#proyectos" class="button-primary">
+                        Ver proyectos
+                    </a>
+
+                    <a href="#" class="button-secondary">
+                        GitHub ↗
+                    </a>
+                </div>
+
+            </div>
+
+
+            <div class="currently-building">
+
+                <span class="status-dot"></span>
+
+                <div>
+                    <p>Actualmente desarrollando</p>
+                    <strong>Sistema de Gestión de Turnos</strong>
+                </div>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer id="contacto">
-        <p>Florencia D'Addino · 2026</p>
-    </footer>
 
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
